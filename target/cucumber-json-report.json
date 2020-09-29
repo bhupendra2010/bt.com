@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11367308300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.open()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "broadband",
+        "description": "",
+        "id": "broadband-deal;broadband",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 382592400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on homepage",
+            "match": {
+              "location": "StepDefBroadband.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3108725400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate the broadband section",
+            "match": {
+              "location": "StepDefBroadband.user_navigate_the_broadband_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1028414900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user find a broadband deal",
+            "match": {
+              "location": "StepDefBroadband.user_find_a_broadband_deal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select the appropriate deal for him",
+            "match": {
+              "location": "StepDefBroadband.user_select_the_appropriate_deal_for_him()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "broadband deal",
+    "description": "",
+    "id": "broadband-deal",
+    "keyword": "Feature",
+    "uri": "C:/Users/bhupe/bt.com/src/test/Resources/broadband.feature"
+  }
+]

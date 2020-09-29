@@ -1,0 +1,7 @@
+Feature: broadband deal
+
+  Scenario: broadband                             [90m# C:/Users/bhupe/bt.com/src/test/Resources/broadband.feature:3[0m
+    [32mGiven [0m[32muser is on homepage[0m                     [90m# StepDefBroadband.user_is_on_homepage()[0m
+    [32mWhen [0m[32muser navigate the broadband section[0m      [90m# StepDefBroadband.user_navigate_the_broadband_section()[0m
+    [32mAnd [0m[32muser find a broadband deal[0m                [90m# StepDefBroadband.user_find_a_broadband_deal()[0m
+    [32mThen [0m[32muser select the appropriate deal for him[0m [90m# StepDefBroadband.user_select_the_appropriate_deal_for_him()[0m
