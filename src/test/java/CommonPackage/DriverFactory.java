@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class DriverFactory {
     public static WebDriver driver;
     public DriverFactory(){
+
         PageFactory.initElements(driver,this);
     }
     public void openbrowser(){

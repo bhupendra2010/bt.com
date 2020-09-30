@@ -1,7 +1,7 @@
-Feature: broadband deal
+Feature: Phonedeal
 
-  Scenario: broadband                             [90m# C:/Users/bhupe/bt.com/src/test/Resources/broadband.feature:3[0m
-    [32mGiven [0m[32muser is on homepage[0m                     [90m# StepDefBroadband.user_is_on_homepage()[0m
-    [32mWhen [0m[32muser navigate the broadband section[0m      [90m# StepDefBroadband.user_navigate_the_broadband_section()[0m
-    [32mAnd [0m[32muser find a broadband deal[0m                [90m# StepDefBroadband.user_find_a_broadband_deal()[0m
-    [32mThen [0m[32muser select the appropriate deal for him[0m [90m# StepDefBroadband.user_select_the_appropriate_deal_for_him()[0m
+  Scenario: Phonedeal check                               [90m# C:/Users/bhupe/bt.com/src/test/Resources/phone.feature:3[0m
+    [32mGiven [0m[32muser is on homepage[0m                             [90m# StepDefBroadband.user_is_on_homepage()[0m
+    [32mWhen [0m[32muser navigate to mobiledeal[0m                      [90m# StepDefPhonedeal.user_navigate_to_mobiledeal()[0m
+    [32mAnd [0m[32muser find sim only deal[0m                           [90m# StepDefPhonedeal.user_find_sim_only_deal()[0m
+    [32mThen [0m[32muser should select the deal and put it in basket[0m [90m# StepDefPhonedeal.user_should_select_the_deal_and_put_it_in_basket()[0m

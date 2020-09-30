@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 11367308300,
+              "duration": 12642463100,
               "status": "passed"
             },
             "match": {
@@ -15,15 +15,15 @@
           }
         ],
         "line": 3,
-        "name": "broadband",
+        "name": "Phonedeal check",
         "description": "",
-        "id": "broadband-deal;broadband",
+        "id": "phonedeal;phonedeal-check",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 382592400,
+              "duration": 191000600,
               "status": "passed"
             },
             "line": 4,
@@ -35,47 +35,47 @@
           },
           {
             "result": {
-              "duration": 3108725400,
+              "duration": 3531691700,
               "status": "passed"
             },
             "line": 5,
-            "name": "user navigate the broadband section",
+            "name": "user navigate to mobiledeal",
             "match": {
-              "location": "StepDefBroadband.user_navigate_the_broadband_section()"
+              "location": "StepDefPhonedeal.user_navigate_to_mobiledeal()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1028414900,
+              "duration": 1890908900,
               "status": "passed"
             },
             "line": 6,
-            "name": "user find a broadband deal",
+            "name": "user find sim only deal",
             "match": {
-              "location": "StepDefBroadband.user_find_a_broadband_deal()"
+              "location": "StepDefPhonedeal.user_find_sim_only_deal()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 45500,
+              "duration": 44400,
               "status": "passed"
             },
             "line": 7,
-            "name": "user select the appropriate deal for him",
+            "name": "user should select the deal and put it in basket",
             "match": {
-              "location": "StepDefBroadband.user_select_the_appropriate_deal_for_him()"
+              "location": "StepDefPhonedeal.user_should_select_the_deal_and_put_it_in_basket()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "broadband deal",
+    "name": "Phonedeal",
     "description": "",
-    "id": "broadband-deal",
+    "id": "phonedeal",
     "keyword": "Feature",
-    "uri": "C:/Users/bhupe/bt.com/src/test/Resources/broadband.feature"
+    "uri": "C:/Users/bhupe/bt.com/src/test/Resources/phone.feature"
   }
 ]
