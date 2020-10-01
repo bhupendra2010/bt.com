@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.256109">
-<testcase classname="Phonedeal" name="Phonedeal check" time="18.256109">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.972955">
+<testcase classname="Sports package" name="sports" time="15.972955">
 <system-out><![CDATA[Given user is on homepage...................................................passed
-When user navigate to mobiledeal............................................passed
-And user find sim only deal.................................................passed
-Then user should select the deal and put it in basket.......................passed
+When user navigate to sports option.........................................passed
+And user click on cricket...................................................passed
+Then user find the right deal for cricket sports............................passed
 ]]></system-out>
 </testcase>
 </testsuite>

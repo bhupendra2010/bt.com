@@ -1,7 +1,7 @@
-Feature: Phonedeal
+Feature: Sports package
 
-  Scenario: Phonedeal check                               [90m# C:/Users/bhupe/bt.com/src/test/Resources/phone.feature:3[0m
-    [32mGiven [0m[32muser is on homepage[0m                             [90m# StepDefBroadband.user_is_on_homepage()[0m
-    [32mWhen [0m[32muser navigate to mobiledeal[0m                      [90m# StepDefPhonedeal.user_navigate_to_mobiledeal()[0m
-    [32mAnd [0m[32muser find sim only deal[0m                           [90m# StepDefPhonedeal.user_find_sim_only_deal()[0m
-    [32mThen [0m[32muser should select the deal and put it in basket[0m [90m# StepDefPhonedeal.user_should_select_the_deal_and_put_it_in_basket()[0m
+  Scenario: sports                                   [90m# C:/Users/bhupe/bt.com/src/test/Resources/sports.feature:3[0m
+    [32mGiven [0m[32muser is on homepage[0m                        [90m# StepDefBroadband.user_is_on_homepage()[0m
+    [32mWhen [0m[32muser navigate to sports option[0m              [90m# StepDefSports.user_navigate_to_sports_option()[0m
+    [32mAnd [0m[32muser click on cricket[0m                        [90m# StepDefSports.user_click_on_cricket()[0m
+    [32mThen [0m[32muser find the right deal for cricket sports[0m [90m# StepDefSports.user_find_the_right_deal_for_cricket_sports()[0m

@@ -1,20 +1,20 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/bhupe/bt.com/src/test/Resources/phone.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/bhupe/bt.com/src/test/Resources/sports.feature");
 formatter.feature({
   "line": 1,
-  "name": "Phonedeal",
+  "name": "Sports package",
   "description": "",
-  "id": "phonedeal",
+  "id": "sports-package",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 12642463100,
+  "duration": 11889315000,
   "status": "passed"
 });
 formatter.scenario({
   "line": 3,
-  "name": "Phonedeal check",
+  "name": "sports",
   "description": "",
-  "id": "phonedeal;phonedeal-check",
+  "id": "sports-package;sports",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -25,45 +25,45 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "user navigate to mobiledeal",
+  "name": "user navigate to sports option",
   "keyword": "When "
 });
 formatter.step({
   "line": 6,
-  "name": "user find sim only deal",
+  "name": "user click on cricket",
   "keyword": "And "
 });
 formatter.step({
   "line": 7,
-  "name": "user should select the deal and put it in basket",
+  "name": "user find the right deal for cricket sports",
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDefBroadband.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 191000600,
+  "duration": 289759600,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefPhonedeal.user_navigate_to_mobiledeal()"
+  "location": "StepDefSports.user_navigate_to_sports_option()"
 });
 formatter.result({
-  "duration": 3531691700,
+  "duration": 3793807700,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefPhonedeal.user_find_sim_only_deal()"
+  "location": "StepDefSports.user_click_on_cricket()"
 });
 formatter.result({
-  "duration": 1890908900,
+  "duration": 28100,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefPhonedeal.user_should_select_the_deal_and_put_it_in_basket()"
+  "location": "StepDefSports.user_find_the_right_deal_for_cricket_sports()"
 });
 formatter.result({
-  "duration": 44400,
+  "duration": 44700,
   "status": "passed"
 });
 });
